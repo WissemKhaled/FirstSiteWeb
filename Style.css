@@ -1,0 +1,46 @@
+/*body {
+	background-color: lightblue;
+}
+.flex-base {
+	background-color: coral;
+}
+#logo-title {
+	font-size: 40px; 
+}
+nav>ul>li:first-of-type>a {
+	color: black;
+}
+.flex-base>ul>li:first-of-type>a {
+	background-color: green;
+}*/
+header {
+	height: 60px;
+}
+
+.flex-base {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.flex-center {
+	align-items: center;
+}
+.menu-buttons>li>a {
+	text-decoration: none;
+	color: black;
+}
+
+ul.flex-center {
+	width: 200px;
+}
+/* pour enlever les marges et le "padding", l'ecart qu'il y a quand on crée des points pour les liste*/
+.no-padding-margin {
+	margin: 0;
+	padding: 0;
+}
+/* c'est une commande pour enlever les points des listes */
+.liste-no-style {
+	list-style: none;
+
+}
