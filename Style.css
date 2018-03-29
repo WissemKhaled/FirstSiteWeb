@@ -16,6 +16,7 @@ nav>ul>li:first-of-type>a {
 header {
 	height: 60px;
 }
+
 .full-height {
 	height: 100%;
 }
@@ -24,14 +25,15 @@ header {
 	flex-direction: row;
 	justify-content: space-around;
 }
+.flex-base>footer {
+	height: 100%;
+	width: 100%;
+}
 
 .flex-center {
 	align-items: center;
 }
-.menu-button {
-	text-decoration: none;
-	color: green;
-}
+
 .menu-buttons>li {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -42,9 +44,13 @@ header {
 	text-transform: uppercase;
 }
 
-.menu-buttons>li:hover , .menu-buttons>li:hover>a {
+.menu-buttons>li:hover , .menu-buttons>li:hover>a , .footer-button>li:hover>a{
 	background-color: black;
 	color: white
+}
+.footer-button>ul {
+	width: 100%;
+
 }
 
 ul.flex-center {
