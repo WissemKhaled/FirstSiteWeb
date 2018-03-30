@@ -17,15 +17,30 @@ nav>ul>li:first-of-type>a {
 body {
 	background-color: #A66E4B;
 }
-.flex-base {
-	background-color: #DB9C69;
-}
+
 header {
 	height: 60px;
 }
-
+main {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
 footer {
-	height: 60px;
+	height: 50px;
+}
+.base-card {
+	padding: 20px;
+	margin: 20px;
+}
+.position-fixed {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.position-footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
 .image-container {
 	width: 500px;
@@ -34,8 +49,11 @@ footer {
 .full-height {
 	height: 100%;
 }
-
+.full-width {
+	width: 90%;
+}
 .flex-base {
+	background-color: #DB9C69;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -45,7 +63,9 @@ footer {
 	flex-direction: row;
 	justify-content: space-around;
 }
-
+.flex-row-alternate {
+	flex-direction: row-reverse;
+}
 .flex-base>footer {
 	height: 100%;
 	width: 100%;
@@ -79,13 +99,12 @@ footer {
 }
 .footer-button>ul {
 	width: 100%;
-
 }
 
 ul.flex-center {
-	width: 300px;
-
+	width: 300px; 
 }
+
 .image-container>img {
 	max-width: 100%;
 	height: auto;
@@ -99,5 +118,4 @@ ul.flex-center {
 /* c'est une commande pour enlever les points des listes */
 .liste-no-style {
 	list-style: none;
-
 }
