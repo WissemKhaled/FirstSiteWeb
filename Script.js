@@ -44,8 +44,10 @@ function checkVictory (divs) {
 		}
 	}
 	if (victoryStatus == true) {
+		setTimeout(function(){
+			alert('Vous avez gagné');
+		}, 500);
 		
-		alert('Vous avez gagné');
 	}	
 }
 
